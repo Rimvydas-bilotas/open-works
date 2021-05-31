@@ -102,7 +102,7 @@ h2, h4 {
     color: white;
 }
 @media only screen and (Min-width: 700px) {
-    header, footer {
+    header {
         flex-direction: row;
         justify-content: space-between;
         padding: 1vw 10vw;
@@ -118,7 +118,8 @@ h2, h4 {
     }
     .img_container, 
     .introduction_text_container,
-    .card_wrapper {
+    .card_wrapper,
+    .contact_wrapper {
         width: 70%;
         margin: 0 auto;
     }
@@ -158,7 +159,6 @@ h2, h4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 0 auto;
         flex: 1;
     }
     body {
