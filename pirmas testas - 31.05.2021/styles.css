@@ -145,6 +145,7 @@ h2, h4 {
     .card {
         flex-direction: row;
         align-items: initial;
+        flex: 1;
     }
     .card_info {
         text-align: left;
