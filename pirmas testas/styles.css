@@ -17,7 +17,6 @@ background-color: grey;
     background-color: white ;
     width: 33%;
     display: flex;
-    margin: 0 auto;
 }
 .white_background {
     background-color: white;
@@ -101,4 +100,65 @@ h2, h4 {
 .footer_list_link {
     text-decoration: none;
     color: white;
+}
+@media only screen and (Min-width: 700px) {
+    header, footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1vw 10vw;
+    }
+    main {
+        margin-bottom: 3vw;
+    }
+    h1 {
+        margin: 0;
+    }
+    .search_wrapper {
+        width: 15vw;
+    }
+    .img_container, 
+    .introduction_text,
+    .card_wrapper,
+    .contact_wrapper {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .hero {
+        height: 60vw;
+    }
+    .img_container {
+        margin-top: -7vw;
+    }
+    .img {
+        height: 14vw;
+        width: 14vw;
+        display: flex;
+    }
+    .card_wrapper {
+        flex-direction: row;
+        align-items: initial;
+    }
+    .card_img {
+        width: 10vw;
+        height: 10vw;
+    }
+    .card {
+        flex-direction: row;
+        align-items: initial;
+    }
+    .card_info {
+        text-align: left;
+        padding-left: 1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact_wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    body {
+        font-size: 0.8rem;
+    }
 }
