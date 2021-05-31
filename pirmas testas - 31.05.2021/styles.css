@@ -52,7 +52,7 @@ background-color: grey;
     justify-content: space-between;
     margin: 1rem 0;
 }
-.introduction_text {
+.introduction_text_container {
     text-align: center;
 }
 h1 {
@@ -117,7 +117,7 @@ h2, h4 {
         width: 15vw;
     }
     .img_container, 
-    .introduction_text,
+    .introduction_text_container,
     .card_wrapper,
     .contact_wrapper {
         width: 70%;
