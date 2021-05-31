@@ -1,0 +1,104 @@
+header, footer {
+background-color: grey;    
+    text-align: center;
+    color: white;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search_btn2 {
+    background: url('https://api.iconify.design/et-magnifying-glass.svg') no-repeat center center / contain;
+    content: url('https://api.iconify.design/et-magnifying-glass.svg');
+    max-height: 100%;
+}
+.search_wrapper {
+    position: relative;
+    background-color: white ;
+    width: 33%;
+    display: flex;
+    margin: 0 auto;
+}
+.white_background {
+    background-color: white;
+}
+.search_height {
+    height: 1rem;
+}
+.noborder {
+    border: none;
+}
+.max_width {
+    max-width: 75%;
+}
+.hero {
+    height: 20rem;
+    background-image: linear-gradient(to right, rgb(145, 133, 247) , rgb(113, 255, 224));
+    display: flex;
+    text-align: center;
+}
+.hero_text{
+    margin: auto;
+    align-items: center;
+}
+.img {
+    height: 34vw;
+    width: 34vw;
+    display: flex;
+    border-radius: 17vw;
+    contain: content;
+}
+.img_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.introduction_text {
+    text-align: center;
+}
+h1 {
+    margin: 0.5rem;
+}
+h2, h4 {
+    color: orange;
+    margin: 0.5rem 0;
+}
+.card_img {
+    height: 44vw;
+    width: 44vw;
+    border-radius: 22vw;
+}
+.card_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    text-align: center;
+    margin: 3px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    contain: content;
+}
+.card_spacing {
+    margin: 0.3rem 0;
+}
+.footer_top_line {
+    height: 0.5rem;
+    background-color: orange;
+}
+.Footer_card {
+    text-align: center;
+}
+.footer_list {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+.footer_list_link {
+    text-decoration: none;
+    color: white;
+}
