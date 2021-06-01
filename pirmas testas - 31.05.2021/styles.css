@@ -159,9 +159,14 @@ h2, h4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        flex: 1;
     }
     body {
         font-size: 0.8rem;
+    }
+    .card_spacing {
+        margin: 0;
+    }
+    .card_spacing:first-child {
+        margin-bottom: 0.3rem;
     }
 }
