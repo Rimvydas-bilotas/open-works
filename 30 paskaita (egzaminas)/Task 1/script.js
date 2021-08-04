@@ -8,3 +8,15 @@ pamatyti jo pateikto svorio kovertavimą į:
 Pastaba: atvaizdavimas turi būti matomas pateikus formą ir pateikiamas
 <div id="output"></div> viduje, bei turi turėti bent minimalų stilių;
 ------------------------------------------------------------------- */
+
+document.querySelector("form").addEventListener('submit', e => {
+    e.preventDefault();
+    // alert("yes");
+    const kg = document.getElementById('search').value;
+    const lb = kg * 2.2046;
+    const g = kg / 0.0010000;
+    const oz = kg * 35.274;
+    const returnField = document.querySelector("div[id=output]");
+    console.log(oz);
+    returnField.innerHTML = lb + " lb<br>" + g + " g<br>" + oz + " oz"
+})

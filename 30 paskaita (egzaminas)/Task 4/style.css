@@ -27,3 +27,31 @@
   margin-top: 50px;
   color: #333;
 }
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border: grey solid 2px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card > div {
+  max-width: 90%;
+  flex-grow: 1;
+  word-break: break-all;
+}
+.card > h1 {
+  margin-bottom: 20px;
+}
