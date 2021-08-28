@@ -15,9 +15,7 @@ const ENDPOINT = 'https://api.github.com/users';
 document.querySelector("button").addEventListener("click", e => {
     fetch(ENDPOINT)
       .then(data => data.json())
-      .then(data => {
-        cards(data)
-      })
+      .then(data => cards(data))
   
     function cards(data) {
       const carField = document.getElementById("output");
