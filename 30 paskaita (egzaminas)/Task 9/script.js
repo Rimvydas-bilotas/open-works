@@ -15,10 +15,7 @@ class Inputs {
     }
 
     wasExpensive() {
-        if(this.budget > 100000000) {
-            return alert("True")
-        }
-        return alert("false")
+        return this.budget > 100000000
     }
 }
 
