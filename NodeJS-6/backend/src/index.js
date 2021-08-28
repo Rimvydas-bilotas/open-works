@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+
 const { MongoClient, ObjectId } = require('mongodb');
 // const { json } = require('express');
 
@@ -8,6 +9,7 @@ const app = express();
 const PORT = process.env.PORT;
 const USER = process.env.USER;
 const PASS = process.env.PASS;
+
 const uri = `mongodb+srv://${USER}:${PASS}@selinantis1tunantis0.hupgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 app.use(cors(), express.json());
@@ -55,6 +57,7 @@ app.post('/', async (request, response) => {
     return response.status(500).json({ error });
   }
 });
+
 
 app.get('/:id', async (request, response) => {
   try {

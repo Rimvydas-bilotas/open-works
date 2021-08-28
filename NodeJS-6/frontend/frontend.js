@@ -33,6 +33,7 @@ function addPet(dataForm) {
 }).catch(error => alert(error));
 }
 
+
 function addPets(e) {
     e.preventDefault();
     const dataForm = {

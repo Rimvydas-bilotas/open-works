@@ -63,3 +63,8 @@ form {
     font-size: 2em;
   }
 }
+
+#output {
+  text-align: center;
+  font-size: xx-large; 
+}
