@@ -8,6 +8,5 @@ let i = 0;
 document.querySelector("div[id=btn__element]").addEventListener("click", e => {
     const counter = document.getElementById('btn__state');
     i++
-    counter.innerText = "";
-    counter.append(i);
+    counter.innerText = i;
 })
