@@ -5,10 +5,9 @@ const { MongoClient, ObjectId } = require('mongodb');
 // const { json } = require('express');
 
 const app = express();
-const PORT = 8080;
-const USER = 'Admin';
-const PASS = 'Admin';
-// const { PORT, USER, PASS } = process.env;
+const PORT = process.env.PORT;
+const USER = process.env.USER;
+const PASS = process.env.PASS;
 const uri = `mongodb+srv://${USER}:${PASS}@selinantis1tunantis0.hupgs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 app.use(cors(), express.json());
