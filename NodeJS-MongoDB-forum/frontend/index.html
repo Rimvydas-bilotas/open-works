@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hello, here you can ask any question and memebrs of our friendly community will try to help you</h1>
+        <button class="main_button" onclick="location.href='add_question.html'" type="button">Ask question</button>
+    </header>
+    <div class="form-popup" id="myForm">
+        <form  class="form-container" id="add_answer">
+          <h3>Please write your answer</h3>
+      
+          <label for="pseudonym"><b>pseudonym</b></label>
+          <input type="text" placeholder="pseudonym" name="pseudonym" id="insert_pseudonym" required>
+      
+          <label for="answer"><b>You answer</b></label>
+          <textarea name="answer" id="insert_answer" cols="30" rows="10" style="resize: none;"></textarea>
+      
+          <button type="submit" class="main_button" id="submit_button">Sumbit</button>
+          <button type="button" class="main_button" onclick="closeForm()">Cancel</button>
+        </form>
+      </div>
+    <main id="questions_wrapper">
+    </main>
+</body>
+</html>
