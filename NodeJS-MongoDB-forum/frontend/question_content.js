@@ -199,7 +199,3 @@ uploadQuestions()
 fetchAnswers()
 
 document.getElementById('add_answer').addEventListener('submit', getAnswer)
-
-// prefillFormFromQueryParams();
-
-// fetchquestions();
