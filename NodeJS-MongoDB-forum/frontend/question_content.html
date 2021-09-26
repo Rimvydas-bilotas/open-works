@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
+    />
+    <script src="question_content.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        Hello, here you can ask any question and memebrs of our friendly
+        community will try to help you
+      </h1>
+    </header>
+    <div class="form-popup" id="myForm">
+      <form  class="form-container" id="add_answer">
+        <h3>Please write your answer</h3>
+    
+        <label for="pseudonym"><b>pseudonym</b></label>
+        <input type="text" placeholder="pseudonym" name="pseudonym" id="insert_pseudonym" required>
+    
+        <label for="answer"><b>You answer</b></label>
+        <textarea name="answer" id="insert_answer" cols="30" rows="10" style="resize: none;"></textarea>
+    
+        <button type="submit" class="main_button" id="submit_button">Sumbit</button>
+        <button type="button" class="main_button" onclick="closeForm()">Cancel</button>
+      </form>
+    </div>
+    <main id="questions_wrapper">
+      <!-- <div class="question_card">
+        <div class="question_card_content">
+          <h3 id="pseudonym">pseudonym</h3>
+          <h4 id="question">question</h4>
+          <p id="description">description</p>
+        </div>
+        <div class="question_card_nav">
+          <button class="main_button">Write an answer</button>
+        </div>
+      </div> -->
+      <!-- <div id="answers_wrapper"> -->
+        <!-- <div class="answer_card">
+          <div class="answer_card_content">
+            <p>date</p>
+            <h3>pseudonym</h3>
+            <p>answer</p>
+          </div>
+          <div class="question_card_nav">
+              <p id="vote_counter"></p>
+              <button class="main_button" id="vote_up">Vote up</button>
+              <button class="main_button" id="vote_down">Vote down</button>
+          </div>
+        </div> -->
+      <!-- </div> -->
+    </main>
+    <main id="answers_wrapper">
+
+    </main>
+  </body>
+</html>
