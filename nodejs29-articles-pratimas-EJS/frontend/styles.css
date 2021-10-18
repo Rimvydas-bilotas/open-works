@@ -1,0 +1,29 @@
+header, main {
+    margin: 2rem;
+}
+
+header {
+    background-color: black;
+    padding: 1rem 2rem;
+    color: white;
+}
+h2 {
+    margin: 0;
+}
+p {
+    color: grey;
+}
+img {
+    height: 100%;
+}
+main>div {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+main>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
